@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Components/Layout/Header';
+import NavBar from './Components/NavBar/NavBar'
 
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <Header />
+    <div className="App">
+      <NavBar/>
 
     </div>
 
