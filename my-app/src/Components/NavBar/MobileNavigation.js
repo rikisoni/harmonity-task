@@ -5,7 +5,7 @@ import classes from './NavBar.module.css';
 const MobileNavigation = () => {
 
     return (
-        <nav className={classes.MobileNavigationSmall}> 
+        <nav className={classes.MobileNavigation}> 
         <NavLinks/>
        </nav>
     );

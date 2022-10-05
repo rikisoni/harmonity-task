@@ -54,3 +54,55 @@ color: grey;
 
     color:rgb(74, 74, 240);
 } */
+ 
+
+.NavBar .MobileNavigationSmall{
+    display:none;
+}
+
+.NavBar .MobileNavigation{
+    display:none;
+}
+
+
+
+
+@media screen and (max-width:768px){
+   
+
+    .NavBar .Navigation{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width:480px){
+
+    .NavBar .Navigation{
+        display: none;
+    }
+    .NavBar .MobileNavigation{
+        display:flex;
+    }
+ 
+    
+}
+
+@media screen and (max-width:320px) {
+
+    
+
+    .NavBar .MobileNavigationSmall{
+        display:flex;
+    }
+    
+    .NavBar .MobileNavigation{
+
+    display:none;
+    }
+   
+
+    
+}
+
+
