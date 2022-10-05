@@ -1,6 +1,14 @@
+import NavLinks from "./NavLinks";
+import classes from './NavBar.module.css';
+
+
 const MobileNavigation = () => {
 
-    return("");
+    return (
+        <nav className={classes.MobileNavigationSmall}> 
+        <NavLinks/>
+       </nav>
+    );
 }
 
 export default MobileNavigation;

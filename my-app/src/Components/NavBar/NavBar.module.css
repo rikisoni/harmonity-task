@@ -5,6 +5,7 @@
     z-index:999;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -18,12 +19,38 @@ padding:0;
 .NavBar nav ul li {
 
     display: inline-block;
-    margin:20px;
+   
   
+}
+
+.NavBar span {
+    margin:10px;
+    color:grey;
 }
 
 .NavBar a {
 
 text-decoration:none;
+color: grey;
 
 }
+
+.NavBar a:hover {
+
+    color:yellowgreen;
+}
+
+.NavBar a:active {
+
+    color:greenyellow;
+}
+
+/* .NavBar a:focus {
+
+    color:rgb(51, 153, 145);
+} */
+
+/* .NavBar a:visited {
+
+    color:rgb(74, 74, 240);
+} */

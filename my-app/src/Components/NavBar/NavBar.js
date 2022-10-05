@@ -1,25 +1,16 @@
 
+import MobileNavigation from './MobileNavigation';
+import MobileNavigationSmall from './MobileNavigationSmall';
 import classes from './NavBar.module.css'
+import Navigation from './Navigation';
 
 const NavBar = () => {
     return (
         <div className = {classes.NavBar}>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="/">HOME</a>
-                    </li>
-                    <li>
-                        <a href="/">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a href="/">OUR WORK</a>
-                    </li>
-                    <li>
-                        <a href="/">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+            <Navigation/>
+            <MobileNavigation/>
+            <MobileNavigationSmall/>
+
         </div>
     );
 

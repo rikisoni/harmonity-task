@@ -2,14 +2,13 @@ import NavLinks from "./NavLinks";
 import classes from './NavBar.module.css';
 
 
-const Navigation = () => {
+const MobileNavigationSmall = () => {
 
     return (
-        
-       <nav className={classes.Navigation}> 
+        <nav className={classes.MobileNavigationSmall}> 
         <NavLinks/>
        </nav>
     );
 }
 
-export default Navigation;
+export default MobileNavigationSmall;
