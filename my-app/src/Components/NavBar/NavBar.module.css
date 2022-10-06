@@ -45,16 +45,7 @@ color: grey;
     color:greenyellow;
 }
 
-/* .NavBar a:focus {
 
-    color:rgb(51, 153, 145);
-} */
-
-/* .NavBar a:visited {
-
-    color:rgb(74, 74, 240);
-} */
- 
 
 .NavBar .MobileNavigationSmall{
     display:none;
@@ -63,6 +54,22 @@ color: grey;
 .NavBar .MobileNavigation{
     display:none;
 }
+
+.NavBar .Search{
+
+    position: absolute;
+    cursor: pointer;
+    right:5%;
+    
+}
+
+.NavBar .SearchBox{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
@@ -73,6 +80,8 @@ color: grey;
     .NavBar .Navigation{
         display: flex;
     }
+
+
 }
 
 
@@ -95,12 +104,47 @@ color: grey;
     .NavBar .MobileNavigationSmall{
         display:flex;
     }
+
+    .NavBar .MobileNavigationSmall .BurgerMenu{
+
+        position:absolute;
+        right:17%;
+        cursor: pointer;
+        width:20px;
+        height:20px;
+        top:30px;
+    }
+
+    .NavBar .MobileNavigationSmall .SearchMenu{
+
+        position:absolute;
+        right:5%;
+        cursor: pointer;
+        width:20px;
+        height:20px;
+    }
+     .NavBar nav ul {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:60px;
+        left:5%;
+        width:100%;
+     }
+     .NavBar span {
+
+        display: none;
+     }
+     
+    
     
     .NavBar .MobileNavigation{
 
     display:none;
     }
    
+    
 
     
 }
