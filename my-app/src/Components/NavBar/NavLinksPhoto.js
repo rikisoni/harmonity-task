@@ -11,19 +11,19 @@ const NavLinksPhoto = () => {
             <li id="home">
 
                 <img src={HomePage} style={{ width: '20px', height: '20px' }}></img>
-                <span></span>
+                
             </li>
             <li id="about">
                 <img src={AboutPage} style={{ width: '20px', height: '20px' }}></img>
-                <span></span>
+               
             </li>
             <li id="work">
                 <img src={WorkPage} style={{ width: '20px', height: '20px' }}></img>
-                <span></span>
+                
             </li>
             <li id="contact">
                 <img src={ContactPage} style={{ width: '20px', height: '20px' }}></img>
-                <span></span>
+                
             </li>
         </ul>
     );

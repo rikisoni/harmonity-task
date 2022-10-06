@@ -51,6 +51,8 @@ color: grey;
     display:none;
 }
 
+
+
 .NavBar .MobileNavigation{
     display:none;
 }
@@ -95,7 +97,14 @@ color: grey;
         display:flex;
     }
 
-   
+      
+
+
+    .NavBar nav ul li{
+
+        margin:12px;
+
+    }
         
 }
  

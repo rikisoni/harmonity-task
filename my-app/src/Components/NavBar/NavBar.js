@@ -1,7 +1,7 @@
 
 import MobileNavigation from './MobileNavigation';
 import MobileNavigationSmall from './MobileNavigationSmall';
-import classes from './NavBar.module.css'
+import classes from './NavBar.module.css';
 import Navigation from './Navigation';
 import { FiSearch } from 'react-icons/fi';
 import SearchBox from './SearchBox';
