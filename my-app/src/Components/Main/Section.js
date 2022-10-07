@@ -1,11 +1,7 @@
 import Calculator from '../../Assets/svg/calculator.svg';
-import Cloud from '../../Assets/svg/cloud.svg';
 import Clock from '../../Assets/svg/clock.svg';
-import Heart from '../../Assets/svg/heart.svg';
 import classes from './Main.module.css';
-
-
-
+import ReadMore from './ReadMore';
 
 
 const Section = ()=>{
@@ -23,7 +19,7 @@ const Section = ()=>{
                 <div className={classes.Box1}><img src={Calculator} style={{ width: '40px', height: '40px'}}></img></div>
 
 
-                <div className={classes.Lorem1}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</p></div>
+                <div className={classes.Lorem1}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>
             </div>
 
 
@@ -31,7 +27,7 @@ const Section = ()=>{
                 <div className={classes.Box3}>  <img src={Clock} style={{ width: '40px', height: '40px' }}></img></div>
 
 
-                <div className={classes.Lorem2}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</p></div>
+                <div className={classes.Lorem2}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>
             </div>
         </div>
 

@@ -2,13 +2,13 @@
 
     display: flex;
     flex-direction: column;
+   
   
 }
 
 .Main .Collection{
    
-    height: 450px;
-    
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,11 +17,12 @@
 
 .Main .Collection .Container{
 
-    width: 480px;
+    width: 500px;
   
 }
 
 .Main .Collection .Header2{
+
 
     color:rgb(180, 159, 159);
     font-weight: 500;
@@ -60,10 +61,95 @@
     height: 150px;
     width:200px;
     margin:15px;
+    font-weight: 300;
     
 }
 
 
 
+.Main .SliderCarousel {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Main .Image {
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .Main .RightArrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .Main .LeftArrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+
+
+  .Main .Button {
+    
+    position:relative;
+    left:55%;
+    margin-top:15px;
+    font-size: 10px;
+    border: none;
+  }
+
+  .Main .Button:active{
+    background-color: greenyellow;
+  }
+
+  .Main .Button:hover{
+    background-color: greenyellow;
+  }
+  .Main .Button:focus{
+    background-color: greenyellow;
+  }
+  .Main .Button:visited{
+    background-color: greenyellow;
+  }
+
+  .Main h3{
+    color:rgb(180, 159, 159);
+    font-weight: unset;
+    margin-top: unset;
+
+   
+  }
+
+  .Main .ReadBox{
+
+    padding:none;
+  }
 
 

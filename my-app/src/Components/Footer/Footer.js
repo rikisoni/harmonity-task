@@ -6,39 +6,39 @@ import Top from '../../Assets/svg/top.svg'
 import classes from "./Footer.module.css";
 import FooterLinks from './FooterLinks';
 
-const Footer =() =>{
+const Footer = () => {
 
-    return(
+    return (
 
         <div className={classes.Footer}>
-           <div className = {classes.Left}>
-            <ul>
-                <li id="Facebook">
-                    <img src={Facebook} style={{ width: '20px', height: '20px' }}></img>
+            <div className={classes.Left}>
+                <ul>
+                    <li id="Facebook">
+                        <a href="/"><img src={Facebook} style={{ width: '20px', height: '20px' }}></img></a>
 
-                </li>
-                <li id="Twitter">
-                    <img src={Twitter} style={{ width: '20px', height: '20px' }}></img>
-                </li>
-                <li id="Contact">
-                    <img src={Contact} style={{ width: '20px', height: '20px' }}></img>
-                </li>
-                
-            </ul>
+                    </li>
+                    <li id="Twitter">
+                       <a href="/"> <img src={Twitter} style={{ width: '20px', height: '20px' }}></img></a>
+                    </li>
+                    <li id="Contact">
+                       <a href="/"> <img src={Contact} style={{ width: '20px', height: '20px' }}></img></a>
+                    </li>
+
+                </ul>
             </div>
-    <div><FooterLinks/></div>
-            
+            <div><FooterLinks /></div>
+
 
             <div className={classes.Right}><ul id="Top">
-  <li id="Top">
+                <li id="Top">
                     <img src={Top} style={{ width: '20px', height: '20px' }}></img>
                 </li>
             </ul></div>
-        
-            
+
+
         </div>
     );
-    
-    }
-    
-    export default Footer;
+
+}
+
+export default Footer;

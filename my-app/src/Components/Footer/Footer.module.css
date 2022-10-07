@@ -49,6 +49,16 @@ left: 5px;
 }
 
 
+.Footer .Left img{
+
+    fill: greenyellow; 
+    transition: ease-in 0.2s all;
+}
+
+.Footer .Left img:hover{
+ fill:blue;
+}
+
 @media screen and (max-width:480px){
 
     .Footer .FooterLinks{
