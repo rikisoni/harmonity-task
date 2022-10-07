@@ -1,8 +1,9 @@
 import Collection from "./Collection";
 import classes from './Main.module.css';
 import Section from "./Section";
-import Slider from "./Slider";
-import { SliderData } from "./SliderData";
+import Carousel from "./Carousel";
+
+
 
 
 const Main = () =>{
@@ -10,7 +11,7 @@ const Main = () =>{
     return(
         
        <div className={classes.Main}> 
-       <Slider slides={SliderData}/>
+       <Carousel/>
        <Section/>
        <Collection/>
        </div>
