@@ -1,0 +1,69 @@
+.Main{
+
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Main .Collection{
+   
+    height: 450px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.Main .Collection .Container{
+
+    width: 480px;
+  
+}
+
+.Main .Collection .Header2{
+
+    color:rgb(180, 159, 159);
+    font-weight: 500;
+    align-content:flex-start;
+    margin-left: 30px;
+    
+}
+
+.Main .Collection .Box{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Main .Box1, .Box2, .Box3, .Box4{
+    background-color: rgb(240, 230, 230);
+    height: 150px;
+    width:200px;
+    margin:15px;
+    /* box-sizing: border-box; */
+
+}
+
+.Main .Collection img{
+ 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.Main .Lorem1, .Lorem2{
+
+    height: 150px;
+    width:200px;
+    margin:15px;
+    
+}
+
+
+
+
+

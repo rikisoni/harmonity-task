@@ -1,0 +1,70 @@
+.Footer {
+    background-color: rgb(197, 193, 193);
+    height:80px;
+    width:100%;
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.Footer ul {
+list-style: none;
+margin:20px;
+padding:0;
+
+}
+
+
+.Footer a {
+
+    text-decoration:none;
+    color: rgb(15, 14, 14);
+    
+    }
+
+.Footer span {
+
+    display: none;
+ }
+
+ .Footer ul li {
+
+    display: inline-block;
+    margin:10px;
+   
+  
+}
+
+.Footer .Left{
+position: absolute;
+left: 5px;
+
+}
+
+.Footer .Right{
+    position: absolute;
+    right: 5px;
+}
+
+
+@media screen and (max-width:480px){
+
+    .Footer .FooterLinks{
+        display: none;
+    }
+        
+  .Footer top{
+
+    position: absolute;
+    right:5%;
+  }
+
+}
+
+
+
+
+
+
