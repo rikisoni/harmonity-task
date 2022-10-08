@@ -1,34 +1,52 @@
 import classes from './Main.module.css';
 import { images } from './CarouselData';
 import { useState } from 'react';
-import {AiOutlineArrowLeft} from 'react-icons/ai';
-import {AiOutlineArrowRight} from 'react-icons/ai';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 
 const Carousel = () => {
 
-    const[currImg, setCurrImg]= useState(0);
+    const [currImg, setCurrImg] = useState(0);
 
     return (
 
         <div className={classes.Carousel}>
-            <div className={classes.CarouselInner} style={{ backgroundImage: `url(${images[currImg].img})`}}>
+            <div className={classes.CarouselInner} style={{ backgroundImage: `url(${images[currImg].img})` }}>
 
-                <div className={classes.Left} onClick={()=>{
+                <div className={classes.Left} onClick={() => {
 
-               currImg > 0 && setCurrImg(currImg-1);
-                
+                    currImg > 0 && setCurrImg(currImg - 1);
+
                 }}>
-                    <AiOutlineArrowLeft style = {{fontSize:20}}/>
+                    <AiOutlineArrowLeft style={{ fontSize: 20 }} />
                 </div>
-                <div className={classes.Center}></div>
+                <div className={classes.Center}>
+                    <div>
+                        <span className={classes.Dot} onClick={() => {
 
-                <div className={classes.Right} onClick={()=>{
-                 currImg < images.length -1 && setCurrImg(currImg+1);
-                
-                }}>
-                    <AiOutlineArrowRight style = {{fontSize:20}}/>
+                            currImg > 0 && setCurrImg(currImg - 1);
+
+                        }}></span>
+                        <span className={classes.Dot} onClick={() => {
+                   currImg < images.length -1 &&  setCurrImg(currImg + 1);
+
+                }}></span>
+                        <span className={classes.Dot} onClick={() => {
+                   currImg < images.length - 1 &&  setCurrImg(currImg + 1);
+
+                }}></span>
+                    </div>
+
                 </div>
+
+                <div className={classes.Right} onClick={() => {
+                    currImg < images.length - 1 && setCurrImg(currImg + 1);
+
+                }}>
+                    <AiOutlineArrowRight style={{ fontSize: 20 }} />
+                </div>
+
 
             </div>
         </div>

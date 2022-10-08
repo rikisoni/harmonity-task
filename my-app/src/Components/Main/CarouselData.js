@@ -1,5 +1,6 @@
 import Slider from '../../Assets/svg/slider.jpg';
 import Nature from '../../Assets/svg/nature.jpg';
+import Lion from '../../Assets/svg/lion.jpg'
 
 
 export const images = [
@@ -16,7 +17,7 @@ export const images = [
 
     {
         title: "3",
-        img: Slider,
+        img: Lion,
     },
 
 
