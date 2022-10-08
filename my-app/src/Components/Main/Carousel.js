@@ -25,17 +25,17 @@ const Carousel = () => {
                     <div>
                         <span className={classes.Dot} onClick={() => {
 
-                            currImg > 0 && setCurrImg(currImg - 1);
+                            setCurrImg(0);
 
                         }}></span>
                         <span className={classes.Dot} onClick={() => {
-                   currImg < images.length -1 &&  setCurrImg(currImg + 1);
+                            setCurrImg(1);
 
-                }}></span>
+                        }}></span>
                         <span className={classes.Dot} onClick={() => {
-                   currImg < images.length - 1 &&  setCurrImg(currImg + 1);
+                             setCurrImg(2);
 
-                }}></span>
+                        }}></span>
                     </div>
 
                 </div>
