@@ -1,5 +1,5 @@
-import Calculator from '../../Assets/svg/calculator.svg';
-import Clock from '../../Assets/svg/clock.svg';
+import Lion from '../../Assets/svg/section1.jpg';
+import LionSecond from '../../Assets/svg/section2.jpg';
 import classes from './Main.module.css';
 import ReadMore from './ReadMore';
 
@@ -16,7 +16,7 @@ const Section = ()=>{
             </div>
             <div className={classes.Box}>
 
-                <div className={classes.Box1}><img src={Calculator} style={{ width: '40px', height: '40px'}}></img></div>
+                <div className={classes.SectionLion}><img src={Lion} style={{ width: '200px', height: '160px'}}></img></div>
 
 
                 <div className={classes.Lorem1}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>
@@ -24,7 +24,7 @@ const Section = ()=>{
 
 
             <div className={classes.Box}>
-                <div className={classes.Box3}>  <img src={Clock} style={{ width: '40px', height: '40px' }}></img></div>
+                <div className={classes.SectionLionSecond}><img src={LionSecond} style={{ width: '200px', height: '160px' }}></img></div>
 
 
                 <div className={classes.Lorem2}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>

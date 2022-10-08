@@ -12,6 +12,7 @@
    
     height: auto;
     display: flex;
+    padding-bottom: 30px;
     flex-direction: row;
     justify-content: center;
   
@@ -50,12 +51,17 @@
 
 }
 
-.Main .Collection img{
+.Main  img{
  
     position: relative;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.Main img:hover{
+ 
+  fill:green!important;
 }
 
 .Main .Lorem1, .Lorem2{
@@ -65,6 +71,15 @@
     margin:15px;
     font-weight: 300;
     
+}
+
+
+.Main .SectionLion, .SectionLionSecond{
+
+  background-color: gray;
+  height: 150px;
+  width: 200px;
+  margin:15px;
 }
 
 

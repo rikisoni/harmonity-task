@@ -5,7 +5,7 @@ const NavLinks = () => {
     return (
         <ul>
         <li id="home">
-            <a href="/">HOME</a>
+           <a href="/">HOME</a>
             <span>/</span>
         </li>
         <li id="about">
