@@ -19,6 +19,8 @@ const NavBar = () => {
             <FiSearch className={classes.Search} size='18px' color="grey" 
             onClick={()=>setOpen(!open)}/>
             {open && <SearchBox/>}
+            <div className={classes.Line}>
+            </div>
             
 
         </div>

@@ -198,6 +198,7 @@ height: 20px;
   background-color: white;
 }
 
+
 .Main .CarouselInner {
 
   height: 100%;
@@ -253,6 +254,11 @@ height: 20px;
 }
 
 
+
+
+
+
+
 @media screen and (max-width:480px){
 
   .Main .Collection .Header2 {
@@ -265,6 +271,26 @@ height: 20px;
 }
 
 @media screen and (max-width:320px) {
+
+  .Main .CarouselInner div:before{
+
+    content: "";
+    border: 1px solid rgb(215, 215, 223);
+    width: 100%;
+    position: absolute;
+    top: 372px;
+    
+  }
+
+  .Main .CarouselInner div:after{
+
+    content: "";
+    border: 1px solid rgb(215, 215, 223);
+    width: 100%;
+    position: absolute;
+    top: 420px;
+    
+  }
 
   .Main .CarouselInner .Center {
 
@@ -296,7 +322,7 @@ height: 20px;
     font-size: 15px;
     flex: 90%;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 295px;
 
   }
 
@@ -310,7 +336,7 @@ height: 20px;
     place-items: center;
     cursor: pointer;
     color: white;
-    padding-top: 320px;
+    padding-top: 315px;
   }
 
   .Main .CarouselInner .Right {
@@ -322,7 +348,7 @@ height: 20px;
     place-items: center;
     color: white;
     cursor: pointer;
-    padding-top: 320px;
+    padding-top: 315px;
   }
 /* 
   .Main .Line{
