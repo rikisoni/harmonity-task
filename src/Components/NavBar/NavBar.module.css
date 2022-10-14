@@ -1,0 +1,210 @@
+.NavBar {
+
+    height:80px;
+    width:100%;
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.NavBar nav ul {
+list-style: none;
+margin:0;
+padding:0;
+
+}
+
+.NavBar nav ul li {
+
+    display: inline-block;
+   
+  
+}
+
+.NavBar span {
+    margin:10px;
+    color:grey;
+}
+
+.NavBar a {
+
+text-decoration:none;
+color: grey;
+
+}
+
+
+
+
+.NavBar .MobileNavigationSmall{
+    display:none;
+}
+
+
+
+.NavBar .MobileNavigation{
+    display:none;
+}
+
+.NavBar .Search{
+
+    position: absolute;
+    cursor: pointer;
+    right:5%;
+   
+    
+}
+
+.NavBar .SearchBox{
+    position: absolute;
+    top:60px;
+    width: 100%;
+    display: grid;
+
+    
+}
+
+.NavBar .MobileNavigationSmall .Home{
+
+    background-color: greenyellow;
+}
+
+.NavBar .MobileNavigationSmall .About{
+
+    background-color: rgb(34, 131, 21);
+}
+
+.NavBar .MobileNavigationSmall .Work{
+
+    background-color: #0D98BA;
+}
+
+.NavBar .MobileNavigationSmall .Contact{
+    
+    background-color: blue;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+   
+
+    .NavBar .Navigation{
+        display: flex;
+    }
+
+
+}
+
+
+@media screen and (max-width:480px){
+
+    .NavBar .Navigation{
+        display: none;
+    }
+    .NavBar .MobileNavigation{
+        display:flex;
+    }
+
+      
+
+
+    .NavBar .MobileNavigation ul li{
+
+        margin:12px;
+
+    }
+    .NavBar .MobileNavigation .HomeMobile svg:hover{
+
+        fill:rgba(186, 216, 14, 0.945);
+
+    }
+
+    .NavBar .MobileNavigation .AboutMobile svg:hover{
+
+        fill:rgba(119, 163, 54, 0.938);
+
+    }
+
+    .NavBar .MobileNavigation .WorkMobile svg:hover{
+
+        fill:#514fac;
+
+    }
+
+    .NavBar .MobileNavigation .ContactMobile svg:hover{
+
+        fill:rgb(52, 65, 184);
+
+    }
+
+
+
+        
+}
+ 
+    
+
+
+@media screen and (max-width:320px) {
+
+    
+
+    .NavBar .MobileNavigationSmall{
+        display:flex;
+    }
+
+    .NavBar .MobileNavigationSmall .BurgerMenu{
+
+        position:absolute;
+        right:17%;
+        cursor: pointer;
+        width:20px;
+        height:20px;
+        top:30px;
+    }
+
+  
+
+    .NavBar .MobileNavigationSmall .SearchBox{
+
+      width: 100%!important;
+      height: auto;
+    }
+     .NavBar .MobileNavigationSmall ul {
+       margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:60px;
+        left:0;
+        width:100%;
+        height:auto;
+        right:0;
+     }
+
+     .NavBar .MobileNavigationSmall a{
+        color:white;
+     }
+
+     .NavBar span {
+
+        display: none;
+     }
+     
+    
+    
+    .NavBar .MobileNavigation{
+
+    display:none;
+    }
+   
+}
+
+
