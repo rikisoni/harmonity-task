@@ -1,26 +1,37 @@
 .Footer {
-    background-color: rgb(197, 193, 193);
+    background-color: rgb(212, 205, 205);
     height:80px;
     width:100%;
-    z-index:999;
+    /* z-index:999; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
 
+.Footer .FooterBox{
+    background-color: rgb(212, 205, 205);
+    height:80px;
+    width:100%; 
+    display: flex;
+    justify-content: center;
+}
+
 
 .Footer ul {
 list-style: none;
-margin:20px;
-padding:0;
+margin:10px;
 
+}
+
+.Footer .Links{
+    margin:20px;
 }
 
 
 .Footer a {
 
     text-decoration:none;
-    color: rgb(15, 14, 14);
+    color: rgb(92, 86, 86);
     
     }
 
@@ -44,12 +55,20 @@ padding:0;
 .Footer .Left{
 position: absolute;
 left: 5px;
+height: 80px;
 
 }
 
 .Footer .Right{
     position: absolute;
     right: 5px;
+    height: 80px;
+}
+.Footer .Round{
+
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 8px;
 }
 
 

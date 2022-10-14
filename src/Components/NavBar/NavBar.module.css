@@ -191,6 +191,7 @@ color: grey;
 
      .NavBar .MobileNavigationSmall a{
         color:white;
+        margin-left: 10px;
      }
 
      .NavBar span {

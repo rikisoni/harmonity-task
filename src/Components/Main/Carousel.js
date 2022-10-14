@@ -21,6 +21,8 @@ const Carousel = () => {
                 }}>
                     <AiOutlineArrowLeft style={{ fontSize: 20 }} />
                 </div>
+                <div className={classes.Header}><h3>LOREM IPSUM DOLOR SIT</h3></div>
+                    
                 <div className={classes.Center}>
                     <div>
                         <span className={classes.Dot} onClick={() => {
@@ -37,6 +39,7 @@ const Carousel = () => {
 
                         }}></span>
                     </div>
+                
 
                 </div>
 

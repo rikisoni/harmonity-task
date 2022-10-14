@@ -4,8 +4,8 @@ import classes from './Footer.module.css'
 const FooterLinks = () => {
     return (
         <div className={classes.FooterLinks}>
-
-             <ul>
+            <div className={classes.Links}>
+                 <ul>
                 <li id="/">
                     <a href="/">HOME</a>
                     <span>/</span>
@@ -21,7 +21,9 @@ const FooterLinks = () => {
                 <li id="/">
                     <a href="/">CONTACT</a>
                 </li>
-                </ul>
+            </ul>
+            </div>
+           
         </div>
     );
 
