@@ -4,7 +4,7 @@ import Burger from '../../Assets/svg/burger.svg'
 import { useState } from "react";
 
 const MobileNavigationSmall = () => {
-
+    
     const [open, setOpen] = useState(false);
 
     return (

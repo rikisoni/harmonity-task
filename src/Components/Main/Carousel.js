@@ -22,6 +22,7 @@ const Carousel = () => {
                     <AiOutlineArrowLeft style={{ fontSize: 20 }} />
                 </div>
                 <div className={classes.Header}><h3>LOREM IPSUM DOLOR SIT</h3></div>
+             
                     
                 <div className={classes.Center}>
                     <div>
@@ -42,7 +43,7 @@ const Carousel = () => {
                 
 
                 </div>
-
+                
                 <div className={classes.Right} onClick={() => {
                     currImg < images.length - 1 && setCurrImg(currImg + 1);
 
@@ -52,6 +53,7 @@ const Carousel = () => {
 
 
             </div>
+        
         </div>
     );
 }

@@ -1,4 +1,3 @@
-
 import MobileNavigation from './MobileNavigation';
 import MobileNavigationSmall from './MobileNavigationSmall';
 import classes from './NavBar.module.css';
@@ -13,12 +12,13 @@ const NavBar = () => {
 
     return (
         <div className={classes.NavBar}>
+          
             <Navigation />
             <MobileNavigation />
             <MobileNavigationSmall />
-            <FiSearch className={classes.Search} size='18px' color="gray" 
+            <FiSearch className={classes.Search} size='18px' color="grey" 
             onClick={()=>setOpen(!open)}/>
-            {open &&  <SearchBox/>}
+            {open && <SearchBox/>}
             
 
         </div>
