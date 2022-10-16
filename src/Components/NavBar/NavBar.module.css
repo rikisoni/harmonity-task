@@ -207,7 +207,18 @@
         top: 30px;
     }
 
+    .NavBar .MobileNavigationSmall .BurgerMenuOpened{
 
+        fill:greenyellow;
+    }
+
+    .NavBar .BurgerMenu {
+
+        fill:grey;
+    }
+  
+
+ 
 
 
     .NavBar .Search {

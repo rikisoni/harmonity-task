@@ -16,7 +16,7 @@ const Section = ()=>{
             </div>
             <div className={classes.Box}>
 
-                <div className={classes.SectionLion}><img src={Lion} style={{ width: '200px', height: '160px'}}></img></div>
+                <div className={classes.SectionLion}><img src={Lion} alt="Section1"style={{ width: '200px', height: '160px'}}></img></div>
 
 
                 <div className={classes.Lorem1}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>
@@ -24,7 +24,7 @@ const Section = ()=>{
 
 
             <div className={classes.Box}>
-                <div className={classes.SectionLionSecond}><img src={LionSecond} style={{ width: '200px', height: '160px' }}></img></div>
+                <div className={classes.SectionLionSecond}><img alt ="Section2" src={LionSecond} style={{ width: '200px', height: '160px' }}></img></div>
 
 
                 <div className={classes.Lorem2}><ReadMore>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo tellus vulputate ante scelerisque, eu tristique velit semper.</ReadMore></div>
