@@ -137,13 +137,12 @@
 }
 
 
-
 @media screen and (max-width:768px) {
 
 
     .NavBar .Navigation {
         display: flex;
-        padding-left: 120px;
+        padding-left: 140px;
     }
 
     .NavBar .Search{
