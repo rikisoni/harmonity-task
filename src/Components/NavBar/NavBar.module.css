@@ -194,6 +194,18 @@
         fill: #147790;
 
     }
+    
+    .NavBar .Search {
+
+
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 5%;
+       
+
+
+    }
 
 
 
