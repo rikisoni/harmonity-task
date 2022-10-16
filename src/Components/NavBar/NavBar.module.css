@@ -65,10 +65,21 @@
 
     position: absolute;
     cursor: pointer;
-    right: 5%;
+    right: 4.5%;
+    fill:gray;
+   
 
 
 }
+
+.NavBar .SearchOpened{
+
+    position: absolute;
+    cursor: pointer;
+    right: 4.5%;
+    fill:#B6D249;
+}
+
 
 .NavBar .SearchBox {
 
@@ -80,6 +91,8 @@
 
 
 }
+
+
 
 .NavBar .MobileNavigationSmall .Home {
 
@@ -130,8 +143,12 @@
 
     .NavBar .Navigation {
         display: flex;
+        padding-left: 120px;
     }
 
+    .NavBar .Search{
+        top:6%;
+    }
 
 }
 
@@ -209,7 +226,7 @@
 
     .NavBar .MobileNavigationSmall .BurgerMenuOpened{
 
-        fill:greenyellow;
+        fill:#B6D249;
     }
 
     .NavBar .BurgerMenu {
@@ -227,7 +244,8 @@
         position: absolute;
         cursor: pointer;
         right: 5%;
-        top: 4.5%;
+        top: 5%;
+       
 
 
     }
